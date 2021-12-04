@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">coffee</string>
+    <string name="register">Registration </string>
+    <string name="addCoffee">New Coffee Shop</string>
+    <string name="name_coffee_hint">Coffee Name</string>
+    <string name="LatitudeCoffee_hint">X location</string>
+    <string name="Longitude_coffee_hint">Y Location</string>
+    <string name="user_email_hint">Email</string>
+    <string name="Challenge_Q_hint">Question</string>
+    <string name="Save">Save</string>
+    <string name="Challenge_Answer_hint">Answer</string>
+    <string name="user_password_hint">Password</string>
+    <string name="user_login_hint">Login</string>
+    <string name="user_signUp_hint">Not Register? Create an Account.</string>
+    <string name="user_name_hint">Name</string>
+    <string name="user_type_hint">UserType</string>
+    <string name="user_mobile_number_hint">Mobile Number</string>
+    <string name="add_challenge">Add Challenge</string>
+    <string name="todo">TODO</string>
+    <string name="addchallenge">Add Challenge</string>
+    <string name="addcoffee">Add Coffee</string>
+    <string name="google_map_key">AIzaSyDd6P1fokqu9py0Lpot0jeH6o_o4Dsr3eY</string>
+    <string name="option_1">Option number 1</string>
+    <string name="option_2">Option number 2</string>
+    <string name="option_3">Option number 3</string>
+    <string name="restart">Restart</string>
+    <string name="home_user">To get a 20% discount on our products, you must go to any cafe near you and win the challenge</string>
+    <string name="wel_home">welcome in coffee App</string>
+    <string name="welcome_app">Welcome in Coffee Shop App</string>
+    <string name="empty">favowriteIco</string>
+    <string name="tv_definition">CoffeeName</string>
+    <string name="favorite_coffee">Favorite Coffee</string>
+    <string name="coffee">Coffee</string>
+    <string name="all_coffee">All Coffee Shop</string>
+    <string name="coupons_coffee">Your Coupons</string>
+    <string name="geofence_transition_invalid_type">geofence transition invalid type</string>
+    <string name="tv_date">Coupon End date</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string-array name="UserType_Array">
+        <item>User</item>
+        <item>OwnerCoffee</item>
+    </string-array>
+</resources>

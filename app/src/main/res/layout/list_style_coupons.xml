@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtUserCoffeeCoup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_definition"
+        android:textAlignment="center"
+        android:textColor="#6F4E37"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/loginViewsMargin" />
+    <TextView
+        android:id="@+id/txtUserCoffeeCoupDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6F4E37"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/tv_date"
+        android:layout_margin="@dimen/loginViewsMargin"/>
+
+</LinearLayout>

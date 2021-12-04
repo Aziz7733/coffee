@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/loginViewsMargin"
+    tools:context=".Login">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo1"
+                android:layout_width="300dp"
+                android:layout_height="230dp"
+                android:src="@drawable/coffee_bk" />
+
+            <TextView
+                android:id="@+id/slog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/loginHeader"
+                android:text="@string/coffee"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/slo_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Sign In to continue"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtLoginEmail"
+               style="@style/modifiedEditText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:hint="@string/user_email_hint"
+                android:background="@drawable/edittextstyle"
+                android:inputType="textWebEmailAddress"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edtloginPassword"
+                style="@style/modifiedEditText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:background="@drawable/edittextstyle"
+                android:hint="@string/user_password_hint"
+                android:inputType="textPassword"
+                android:textAlignment="center" />
+
+
+
+            <Button
+                android:id="@+id/btnLogIn"
+                android:layout_gravity="center"
+                style="@style/loginButton"
+                android:text="@string/user_login_hint"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+            <TextView
+                android:id="@+id/btnSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:clickable="true"
+                android:textColor="@color/blue"
+                android:text="@string/user_signUp_hint"
+                android:focusable="true" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

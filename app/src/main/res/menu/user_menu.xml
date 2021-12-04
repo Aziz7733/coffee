@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_get_myCoupons"
+        android:title="Coupons list" />
+
+    <item
+        android:id="@+id/action_get_myFavorite"
+        android:title="Favorite list" />
+    <item
+        android:id="@+id/action_silent"
+        android:title="Silent mode" />
+    <item
+        android:id="@+id/action_logOut"
+        android:title="LogOut" />
+
+</menu>

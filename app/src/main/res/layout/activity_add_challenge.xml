@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginStart="24dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddChallenge">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/logo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chal"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/slog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/loginHeader"
+                android:text="@string/add_challenge"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/edtChallengeQ"
+                style="@style/modifiedEditText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:hint="@string/Challenge_Q_hint"
+                android:background="@drawable/edittextstyle"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/edtChallengeA"
+                style="@style/modifiedEditText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:background="@drawable/edittextstyle"
+                android:hint="@string/Challenge_Answer_hint"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/edtChallengeO1"
+                style="@style/modifiedEditText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:background="@drawable/edittextstyle"
+                android:hint="@string/option_1"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:autofillHints="" />
+            <EditText
+                android:id="@+id/edtChallengeO2"
+                style="@style/modifiedEditText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:background="@drawable/edittextstyle"
+                android:hint="@string/option_2"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/edtChallengeO3"
+                style="@style/modifiedEditText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:background="@drawable/edittextstyle"
+                android:hint="@string/option_3"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:autofillHints="" />
+
+                <Spinner
+                    android:id="@+id/spnChoseCoffee"
+                    style="@style/modifiedEditText"
+                    android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+            <Button
+                android:id="@+id/btnSaveChallenge"
+                android:layout_gravity="right"
+                style="@style/loginButton"
+                android:text="@string/Save"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
